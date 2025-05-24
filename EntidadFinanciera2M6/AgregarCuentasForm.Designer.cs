@@ -1,6 +1,6 @@
 ﻿namespace EntidadFinanciera2M6
 {
-    partial class AgregarCuetasForm
+    partial class AgregarCuentasForm
     {
         /// <summary>
         /// Required designer variable.

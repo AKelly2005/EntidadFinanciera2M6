@@ -48,7 +48,7 @@ namespace EntidadFinanciera2M6
             }
 
             int clienteId = (int)dgvClientes.SelectedRows[0].Cells["ClienteId"].Value;
-            var form = new AgregarCuetasForm(clienteId);
+            var form = new AgregarCuentasForm(clienteId);
 
             if (form.ShowDialog() == DialogResult.OK)
             {

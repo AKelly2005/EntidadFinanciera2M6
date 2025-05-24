@@ -12,7 +12,7 @@ using System.Windows.Forms;
 namespace EntidadFinanciera2M6
 {
     //Formulario para agregar una nueva cuenta asociada a un cliente.
-    public partial class AgregarCuetasForm : Form
+    public partial class AgregarCuentasForm : Form
     {
         private readonly ErrorProvider _errorProvider = new ErrorProvider();
         private readonly int _clienteId;
@@ -20,7 +20,7 @@ namespace EntidadFinanciera2M6
         //Cuenta creada tras aceptar el formulario.
         public Cuenta NuevaCuenta { get; private set; }
         private int _cienteId;
-        public AgregarCuetasForm(int clienteId)
+        public AgregarCuentasForm(int clienteId)
         {
             InitializeComponent();
             _cienteId = clienteId;
